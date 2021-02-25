@@ -1604,7 +1604,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/ember-data@^3.16.9":
+"@types/ember-data@*", "@types/ember-data@^3.16.9":
   version "3.16.9"
   resolved "https://registry.yarnpkg.com/@types/ember-data/-/ember-data-3.16.9.tgz#2a4cb335ea31379adc9068dda6a2c87555883162"
   integrity sha512-m242covZrRbT2ozOS8zM8RsUrm1mAF7EWWLPjKSiblSg9Ba1UsH/bS7Ds0U0vz4j5W2dZgZgprlPtCwa6FwnwA==
@@ -1612,6 +1612,13 @@
     "@types/ember" "*"
     "@types/ember__object" "*"
     "@types/rsvp" "*"
+
+"@types/ember-data__model@^3.16.2":
+  version "3.16.2"
+  resolved "https://registry.yarnpkg.com/@types/ember-data__model/-/ember-data__model-3.16.2.tgz#12b692835afa6cd7eeab99357e4b6c5a5ce8c2d4"
+  integrity sha512-M5q4I7qsTRPl4hIA0htVj+1jyVJRsScucPUlNuxi36MxXsRj4v1y1nxywt8PRxlsz5umL+yJSrBpL3z3jBPwbA==
+  dependencies:
+    "@types/ember-data" "*"
 
 "@types/ember-qunit@^3.4.13":
   version "3.4.13"
