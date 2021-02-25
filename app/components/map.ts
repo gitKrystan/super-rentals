@@ -4,11 +4,11 @@ import ENV from 'super-rentals/config/environment';
 const MAPBOX_API = 'https://api.mapbox.com/styles/v1/mapbox/streets-v11/static';
 
 interface MapArgs {
-  lng: unknown;
-  lat: unknown;
-  width: unknown;
-  height: unknown;
-  zoom: unknown;
+  lng: number;
+  lat: number;
+  width: string;
+  height: string;
+  zoom: string;
 }
 
 export default class MapComponent extends Component<MapArgs> {
