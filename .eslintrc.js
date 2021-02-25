@@ -20,7 +20,9 @@ module.exports = {
   env: {
     browser: true,
   },
-  rules: {},
+  rules: {
+    'prefer-const': 0,
+  },
   overrides: [
     // node files
     {
