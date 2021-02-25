@@ -11,4 +11,6 @@ declare const config: {
   locationType: string;
   rootURL: string;
   APP: Record<string, unknown>;
+
+  MAPBOX_ACCESS_TOKEN: string;
 };
